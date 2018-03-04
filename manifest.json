@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Vocabify-1.0",
+  "version": "1.0-beta",
+  "author": "dexter",
+  "description": "Displays the meaning of selected word on any webpage",
+  "icons": {
+    "48": "./icons/48.png",
+    "96": "./icons/96.png"
+  },
+  "permissions" : [
+    "webRequest",
+    "webRequestBlocking",
+    "http://api.urbandictionary.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": [
+        "./lib/jquery-3.3.1.min.js",
+        "./vocabify.js"
+      ]
+    }
+  ]
+}
