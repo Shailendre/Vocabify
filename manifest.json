@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
   "name": "Vocabify-1.0",
-  "version": "1.0-beta",
-  "author": "dexter",
+  "version": "1.0",
+  "author": "__dexter",
   "description": "Displays the meaning of selected word on any webpage",
   "icons": {
-    "48": "./icons/48.png",
-    "96": "./icons/96.png"
+    "128": "./icons/128.png",
+    "320": "./icons/320.png"
   },
   "permissions" : [
     "webRequest",
